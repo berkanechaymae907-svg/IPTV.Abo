@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV.kaufen - Bestes IPTV Abonnement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-play-circle"></i> IPTV<span>.kaufen</span>
+        </div>
+        <nav>
+            <a href="#features">Funktionen</a>
+            <a href="#pricing">Preise</a>
+            <a href="#support">Kontakt</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Das ultimative IPTV-Erlebnis</h1>
+        <p>Über 30.000 Live-TV-Kanäle und 70.000 Filme & Serien in erstklassiger Qualität.</p>
+        <a href="#pricing" class="btn-primary">Angebote entdecken</a>
+    </section>
+    <section id="features" class="features-section">
+        <h2>Unsere Funktionen</h2>
+        <div class="features-grid">
+            <div class="feature-card"><div class="icon-box"><i class="fas fa-tv"></i></div><h3>Tausende Kanäle</h3><p>Deutsche, europäische und internationale Sender — Sport, Nachrichten, Unterhaltung und mehr, alles an einem Ort.</p></div>
+            <div class="feature-card"><div class="icon-box"><i class="fas fa-film"></i></div><h3>Filme & Serien (VOD)</h3><p>Eine riesige Bibliothek an Filmen und Serien on demand — jederzeit abrufbar, ganz ohne Wartezeit.</p></div>
+            <div class="feature-card"><div class="icon-box"><i class="fas fa-calendar-alt"></i></div><h3>Elektronischer Programmführer</h3><p>Behalten Sie mit unserem übersichtlichen EPG jederzeit den Überblick über aktuelle und kommende Sendungen.</p></div>
+            <div class="feature-card"><div class="icon-box"><i class="fas fa-server"></i></div><h3>Schnelle, stabile Server</h3><p>Unsere Infrastruktur ist auf minimale Pufferzeiten und maximale Verfügbarkeit ausgelegt.</p></div>
+            <div class="feature-card"><div class="icon-box"><i class="fas fa-headset"></i></div><h3>Persönlicher Kundensupport</h3><p>Unser deutschsprachiges Support-Team steht Ihnen über WhatsApp bei jeder Frage zur Seite.</p></div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing-section">
+        <h2>Wählen Sie Ihr Abonnement</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>6 MONATE</h3><div class="price">30€</div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Über 30.000 Live-TV-Kanäle und Sportevents weltweit</li>
+                    <li><i class="fas fa-check"></i> Hervorragende Qualität in Full HD, 4K und Ultra HD</li>
+                    <li><i class="fas fa-check"></i> Über 70.000 Filme und Serien auf Abruf (VOD)</li>
+                    <li><i class="fas fa-check"></i> Elektronischer Programmführer (EPG) inklusive</li>
+                    <li><i class="fas fa-check"></i> Deutscher Kundensupport 24/7</li>
+                </ul>
+                <a href="#" class="btn-secondary">Angebot entdecken</a>
+            </div>
+            <div class="pricing-card popular">
+                <div class="badge red-badge">🔥 AM BELIEBTESTEN</div>
+                <h3>1 JAHR</h3><div class="price">40€</div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Über 30.000 Live-TV-Kanäle und Sportevents weltweit</li>
+                    <li><i class="fas fa-check"></i> Hervorragende Qualität in Full HD, 4K und Ultra HD</li>
+                    <li><i class="fas fa-check"></i> Über 70.000 Filme und Serien auf Abruf (VOD)</li>
+                    <li><i class="fas fa-check"></i> Elektronischer Programmführer (EPG) inklusive</li>
+                    <li><i class="fas fa-check"></i> Deutscher Kundensupport 24/7</li>
+                </ul>
+                <a href="#" class="btn-primary">Angebot entdecken</a>
+            </div>
+            <div class="pricing-card best-value">
+                <div class="badge olive-badge">💎 BESTES PREIS-LEISTUNGS-VERHÄLTNIS</div>
+                <h3>2 JAHRE</h3><div class="price">70€</div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Über 30.000 Live-TV-Kanäle und Sportevents weltweit</li>
+                    <li><i class="fas fa-check"></i> Hervorragende Qualität in Full HD, 4K und Ultra HD</li>
+                    <li><i class="fas fa-check"></i> Über 70.000 Filme und Serien auf Abruf (VOD)</li>
+                    <li><i class="fas fa-check"></i> Elektronischer Programmführer (EPG) inklusive</li>
+                    <li><i class="fas fa-check"></i> Deutscher Kundensupport 24/7</li>
+                </ul>
+                <a href="#" class="btn-secondary">Angebot entdecken</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 IPTV.kaufen - Alle Rechte vorbehalten.</p>
+        <div class="social-links"><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp Support</a></div>
+    </footer>
+    <a href="https://wa.me/DEINENUMMER" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</body>
+</html>
