@@ -1,0 +1,324 @@
+/* Variables for Colors */
+:root {
+    --bg-dark: #111111;
+    --bg-card: #1c1c1c;
+    --text-white: #ffffff;
+    --text-gray: #b3b3b3;
+    --red-primary: #e50914;
+    --olive-green: #556b2f;
+    --olive-green-hover: #6b8e23;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(17, 17, 17, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-white);
+}
+
+.logo span {
+    color: var(--red-primary);
+}
+
+nav a {
+    color: var(--text-white);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--red-primary);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--text-gray);
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--red-primary);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #b80710;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid var(--red-primary);
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-secondary:hover {
+    background-color: var(--red-primary);
+    color: white;
+}
+
+.features-section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color: var(--bg-card);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    border-left: 4px solid var(--olive-green);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card .icon-box {
+    font-size: 24px;
+    color: var(--red-primary);
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.feature-card p {
+    color: var(--text-gray);
+    font-size: 14px;
+}
+
+.pricing-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #0a0a0a;
+}
+
+.pricing-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pricing-card {
+    background-color: var(--bg-card);
+    border-radius: 15px;
+    padding: 40px 30px;
+    position: relative;
+    border: 1px solid #333;
+    transition: all 0.3s;
+}
+
+.pricing-card.popular {
+    border: 2px solid var(--red-primary);
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(229, 9, 20, 0.2);
+}
+
+.pricing-card.best-value {
+    border: 2px solid var(--olive-green);
+}
+
+.badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+.red-badge {
+    background-color: var(--red-primary);
+}
+
+.olive-badge {
+    background-color: var(--olive-green);
+}
+
+.pricing-card h3 {
+    font-size: 18px;
+    color: var(--text-gray);
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.features-list {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.features-list li {
+    margin-bottom: 12px;
+    color: var(--text-gray);
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.features-list li i {
+    color: var(--red-primary);
+    margin-top: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: var(--bg-dark);
+    border-top: 1px solid #333;
+}
+
+footer p {
+    color: var(--text-gray);
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: var(--olive-green);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--olive-green-hover);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--olive-green);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: var(--olive-green-hover);
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .pricing-card.popular {
+        transform: scale(1);
+    }
+
+    .features-section,
+    .pricing-section {
+        padding: 50px 20px;
+    }
+}
